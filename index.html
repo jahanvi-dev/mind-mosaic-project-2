@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mind Mosaic | Project by Jahanvi Yadav</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="index-main">
+      <nav>
+        <div class="nav-box1">
+          <h3> MIND MOSAIC</h3>
+
+        </div>
+        <div class="nav-box2">
+          <h3>  <a href="">User Responses</a> </h3>
+          
+        </div>
+
+      </nav>
+
+      <div class="index-page1">
+        <div class="hero-container">
+          <div class="video1">
+            <video src="/public/page1-video1.mp4" autoplay muted loop></video>
+          </div>
+
+          <div class="video2">
+            <img src="/public/page1-video3.gif" autoplay muted loop></img>
+          </div>
+
+          <h1> Discover connections through shared memories and future aspirations. </h1>
+        </div>
+
+        <p>
+          <b>
+          Welcome to my Mind Mosaic Project,
+          </b>
+          <br>
+          This project is very dear to me because of the powerful idea it represents—a platform where personal reflections meet shared experiences. Like many of you, I value privacy, so this space is designed to be safe and anonymous. No emails or phone numbers are required—just share your name, age, and gender. After answering the questions, feel free to interact with other users' responses and enjoy some shared moments together.
+          <br><br>
+          I highly encourage you to participate and connect with others through their answers.
+      </p>
+
+      <button id="redirect-html2">
+        GET STARTED
+      </button>
+
+      <div id="circular-box">
+        <!-- <div class="circular-text">
+          <p> M I N D - M O S A I C - 
+          </p>
+           
+        </div> -->
+
+      
+
+
+      </div>
+
+    </main>
+
+    
+    <script>
+      // let text = document.querySelector('.circular-text p');
+      // text.innerHTML = text.innerText.split('').map(
+      // (char, i) => `<span style = "transform:rotate(${i * 15}deg)"> ${char} </span>`
+      // ).join('');
+
+       document.getElementById('redirect-html2').addEventListener('click', () => {
+    // console.log('home page button was clicked')
+    window.location.href = 'questions.html'
+})
+      
+
+    </script>
+  </body>
+</html>
